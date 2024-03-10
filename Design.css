@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color:#f8f8ff;
+}
+
+.omg{
+  position:center;
+  height: 400px;
+  width: 1450px;
+}
+.descrip{
+  text-align: center;
+  margin:40px;
+  padding:5px;
+}
+
+.descrip h1{
+  font-size: 100px;
+  font-weight: bold;
+  font-family:Playfair Display;
+}
+
+.descrip p{
+  font-size: 25px;
+  font-family: Rubik;
+  padding:3px
+}
+
+.one{
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.two{
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.three{
+  min-height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mem{
+  width: 350px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 3%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+  border-radius: 5%;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.per-img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.mem h1{
+  font-size: 25px;
+  letter-spacing: 4px;
+  font-weight: 300;
+}
+.mem p{
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+
+.mem hr{
+  margin: 10px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+.mem li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.mem a{
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  transition: all ease-in-out 250ms;
+}
+.mem a:hover{
+  color: #b9b9b9;
+}
